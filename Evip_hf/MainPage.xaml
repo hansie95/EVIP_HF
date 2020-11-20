@@ -8,8 +8,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
     <Grid>
-        <Button x:Name="toSplash"  Background="Silver" Content="Go to splash" VerticalAlignment="Top" Click="toSplash_Click" Height="50" RenderTransformOrigin="-6.028,-8.805" Margin="63,39,0,0"/>
+        <Button x:Name="btn1"  Background="Silver" Content="Go to Page 1" VerticalAlignment="Top" Click="toSplash_Click" Height="50" RenderTransformOrigin="-6.028,-8.805" Margin="312,36,0,0"/>
+        <Button x:Name="btn2"  Background="Silver" Content="Go to Page 2" VerticalAlignment="Top" Click="btn2_Click" Height="50" RenderTransformOrigin="0.616,1.78" Margin="461,35,0,0"/>
+        <Button x:Name="btn3"  Background="Silver" Content="Go to Page 3" VerticalAlignment="Top" Click="btn3_Click" Height="50" RenderTransformOrigin="2.905,1.807" Margin="611,35,0,0"/>
         <Frame x:Name="frame" Margin="0,99,0,0" />
+
+
+
     </Grid>
 </Page>

@@ -22,5 +22,15 @@ namespace Evip_hf
         {
             frame.Navigate(typeof(SplashScreen));
         }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(typeof(BlankPage2));
+        }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(typeof(BlankPage3));
+        }
     }
 }
